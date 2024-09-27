@@ -16,5 +16,14 @@
 
         <input type="submit" value="Отправить">
     </form>
+
+    <h1>Зарегистрированные пользователи</h1>
+    <form action="/get-users" method="get">
+       <textarea rows="10" cols="50" readonly>
+            {{ data }}
+       </textarea>
+        <br>
+        <button type="submit">Обновить</button>
+    </form>
 </body>
 </html>
